@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="65.691921">
+<testcase classname="Adactin Login page" name="Verify the user login" time="8.955481">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+When title of the login page is adactin.....................................passed
+When user enters "Ishaanviaan" and "ishaan123"..............................passed
+And user click Login button in Login page...................................passed
+Then user verify the username displayed in homepage.........................passed
+And User click logout.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin Login page" name="Verify the user login" time="8.065208">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+When title of the login page is adactin.....................................passed
+When user enters "Ishaanviaan" and "ishaan123"..............................passed
+And user click Login button in Login page...................................passed
+Then user verify the username displayed in homepage "valid".................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin Login page" name="Verify the user login 2" time="4.027789">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+When title of the login page is adactin.....................................passed
+When user enters "xyxyxyxy" and "sade"......................................passed
+And user click Login button in Login page...................................passed
+Then user verify the username displayed in homepage "invalid"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin Login page" name="Verify the user login 3" time="9.709637">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+When title of the login page is adactin.....................................passed
+When user enters "Ishaanviaan" and "ishaan123"..............................passed
+And user click Login button in Login page...................................passed
+Then user verify the username displayed in homepage "valid".................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin Login page" name="Verify the user login with multiple credentials using datadriven" time="34.933806">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+When title of the login page is adactin.....................................passed
+And user get username and password from excel file..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

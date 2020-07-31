@@ -1,0 +1,459 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the user login",
+        "description": "",
+        "id": "adactin-login-page;verify-the-user-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3107606100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "AdactinStepdef.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12167200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the login page is adactin",
+            "match": {
+              "location": "AdactinStepdef.title_of_the_login_page_is_adactin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 661049900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Ishaanviaan\" and \"ishaan123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ishaanviaan",
+                  "offset": 13
+                },
+                {
+                  "val": "ishaan123",
+                  "offset": 31
+                }
+              ],
+              "location": "AdactinStepdef.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2127584100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click Login button in Login page",
+            "match": {
+              "location": "AdactinStepdef.user_click_Login_button_in_Login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62033700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verify the username displayed in homepage",
+            "match": {
+              "location": "AdactinStepdef.user_verify_the_username_displayed_in_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2985039700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click logout",
+            "match": {
+              "location": "AdactinStepdef.user_click_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verify the user login",
+        "description": "",
+        "id": "adactin-login-page;verify-the-user-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2801687300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "AdactinStepdef.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6914900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the login page is adactin",
+            "match": {
+              "location": "AdactinStepdef.title_of_the_login_page_is_adactin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 548765100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"Ishaanviaan\" and \"ishaan123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ishaanviaan",
+                  "offset": 13
+                },
+                {
+                  "val": "ishaan123",
+                  "offset": 31
+                }
+              ],
+              "location": "AdactinStepdef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1544456800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click Login button in Login page",
+            "match": {
+              "location": "AdactinStepdef.user_click_Login_button_in_Login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3163383600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verify the username displayed in homepage \"valid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 48
+                }
+              ],
+              "location": "AdactinStepdef.user_verify_the_username_displayed_in_homepage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@usingexamples"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verify the user login",
+        "description": "",
+        "id": "adactin-login-page;verify-the-user-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2538360500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "AdactinStepdef.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24157900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the login page is adactin",
+            "match": {
+              "location": "AdactinStepdef.title_of_the_login_page_is_adactin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519673600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"xyxyxyxy\" and \"sade\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyxyxyxy",
+                  "offset": 13
+                },
+                {
+                  "val": "sade",
+                  "offset": 28
+                }
+              ],
+              "location": "AdactinStepdef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 920172300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click Login button in Login page",
+            "match": {
+              "location": "AdactinStepdef.user_click_Login_button_in_Login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25424900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verify the username displayed in homepage \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 48
+                }
+              ],
+              "location": "AdactinStepdef.user_verify_the_username_displayed_in_homepage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@usingexamples"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify the user login",
+        "description": "",
+        "id": "adactin-login-page;verify-the-user-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3159451400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "AdactinStepdef.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13988300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the login page is adactin",
+            "match": {
+              "location": "AdactinStepdef.title_of_the_login_page_is_adactin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 602943000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"Ishaanviaan\" and \"ishaan123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ishaanviaan",
+                  "offset": 13
+                },
+                {
+                  "val": "ishaan123",
+                  "offset": 31
+                }
+              ],
+              "location": "AdactinStepdef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2532177000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click Login button in Login page",
+            "match": {
+              "location": "AdactinStepdef.user_click_Login_button_in_Login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3401077400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verify the username displayed in homepage \"valid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 48
+                }
+              ],
+              "location": "AdactinStepdef.user_verify_the_username_displayed_in_homepage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@usingexamples"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verify the user login with multiple credentials using datadriven",
+        "description": "",
+        "id": "adactin-login-page;verify-the-user-login-with-multiple-credentials-using-datadriven",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3223036600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "AdactinStepdef.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9802300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "title of the login page is adactin",
+            "match": {
+              "location": "AdactinStepdef.title_of_the_login_page_is_adactin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31700966900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user get username and password from excel file",
+            "match": {
+              "location": "AdactinStepdef.user_get_username_and_password_from_excel_file()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@usingdatadriven"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Login page",
+    "description": "",
+    "id": "adactin-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/java/AdactinFeaturefiles/Loginpage.feature"
+  }
+]
